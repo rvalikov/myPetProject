@@ -1,7 +1,7 @@
 button{
     color:white;
- background-color:blue  ;
- border-radius: 25px;
+ background-color:grey ;
+ /*border-radius: 25px;*/
  width: 35px;
  height: 35px;
  
@@ -23,5 +23,5 @@ input{
 div{
     width: 160px;
     
-    background-color: rgb(15, 224, 15);
+    background-color: grey;
 }
