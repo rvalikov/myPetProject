@@ -2,8 +2,9 @@ button{
     color:white;
  background-color:grey ;
  /*border-radius: 25px;*/
- width: 35px;
- height: 35px;
+ width: 50px;
+ height: 50px;
+ padding: 0px;
  
 }
 button:hover{
@@ -11,17 +12,32 @@ button:hover{
 }
 input{
     border-radius: 25px;
-    width: 150px;
+    width: 205px;
     
 }
 .clear{
     background-color: red;
+    border-radius: 25px;
+
 }
 .clear:hover{
     background-color: black;
 }
-div{
-    width: 160px;
+.parent{
     
+    position: absolute;
+    left: 600px;
+   top: 300px;
+    width: 213px;
+    height: 250px;
+    border-radius: 25px;
+
     background-color: grey;
+}
+.parah{
+    color: white;
+    padding: auto;
+    position: relative;
+    left: 20px;
+    top: -10px;
 }
